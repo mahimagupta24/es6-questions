@@ -17,7 +17,8 @@
 // }
 //   return student
 // }
-const checkForTeam =(student)=>({...student,team:student.team??'A'})
+ const checkForTeam =(student)=>({...student,team:student.team??'A'})
+// const checkForTeam = ({ team = "A", ...obj }) => ({...obj, team})
 
 console.log(checkForTeam({ firstName: "Penn", lastName: "Ma" }));
 

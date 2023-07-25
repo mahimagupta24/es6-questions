@@ -8,14 +8,14 @@ const person = {
   },
 };
 
-const {
-  name,
-  address : {city},
-} = person;
+// const {
+//   name,
+//   address : {city},
+// } = person;
 
 
-const getData = ({name, address :{city}}) =>
+const getData = ({name, address :{city}}) =>{
    console.log(name);
 console.log(city);
-
+}
 getData(person);

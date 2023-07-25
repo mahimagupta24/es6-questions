@@ -1,7 +1,7 @@
 // Create a function which takes in the given object and returns a sentence which indicates name of the person and where the person lives.
 
-const printData = userData => `${userData.name} lives in ${userData.country}`
-
+// const printData = userData => `${userData.name} lives in ${userData.country}`
+const printData = ({name,country}) => `${name} lives in ${country}`
 
 
 const userData1 = {

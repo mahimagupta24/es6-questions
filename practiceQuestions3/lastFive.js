@@ -2,7 +2,7 @@
 
 const printLastFive = (arr) => {
   let arr2 = [];
-  for (i = arr.length - 5; i < arr.length; i++) {
+  for (let i = arr.length - 5; i < arr.length; i++) {
     arr2.push(arr[i]);
   }
   return arr2;
